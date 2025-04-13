@@ -1,7 +1,11 @@
+import './style.css'
+
 const MyComponent = () => {
     return (
-      <div> Quang Nam</div>
+        <>
+            <div className="name">Quang Nam</div>
+        </>
     );
-  }
+}
 
 export default MyComponent;

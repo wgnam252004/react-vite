@@ -6,7 +6,9 @@ const SecondComponent = () => {
 
 const ThirdComponent = () => {
     return (
-        <div>Tay Ho, Ha Noi</div>
+        <>
+            <div>Tay Ho, Ha Noi</div>
+        </>
     );
 }
 
