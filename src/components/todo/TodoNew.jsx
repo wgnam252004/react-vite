@@ -2,9 +2,9 @@ import { useState } from "react";
 
 const TodoNew = (props) => {
 
-    const [valueInput, setValueInput] = useState("nam")
+    const [valueInput, setValueInput] = useState("")
 
-    console.log(">>> check props", props)
+    // console.log(">>> check props", props)
     const {addNewTodo}  = props;
 
     const handleClick = () => {
