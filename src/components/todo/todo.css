@@ -3,6 +3,11 @@
     width: 500px;
 }
 
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+}
+
 .todo-title {
     font-size: 35px;
     margin:15px 0;
